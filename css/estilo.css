@@ -1,22 +1,61 @@
 .Tituloh{
  text-align: center;
 }
-
 header{
     background: linear-gradient(to top, #FE998F, #FFF1F0);
+    height: 100px;
     
 }
-
 .Itemlista{
     display: inline;  
      
 }
-
 .menu{
     text-decoration: none;
     margin: 20px;
 }
-
 .Padrelista{
     text-align: center;
 }
+main{
+    background: linear-gradient(to top, #FE998F, #FFF1F0);
+    /* height: 700px; */
+    width: 100%;
+
+}
+.row{
+    justify-content: space-between;
+}
+.card-img-top{
+    height: 300px;
+    
+}
+.card{
+    height: 700px;
+    background: linear-gradient(to top, #FE998F, #FFF1F0);
+    border: none;
+}
+.foot{
+    text-align: center;
+    font-size: 30px;
+}
+.Redes{
+    text-align: center;
+    font-size: large;
+    color: blue;
+}
+footer{
+    background-color: grey;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    
+}
+
+.Linktienda{
+    margin-left: 50px
+    ;
+}
+
+
