@@ -1,0 +1,22 @@
+.Tituloh{
+ text-align: center;
+}
+
+header{
+    background: linear-gradient(to top, #FE998F, #FFF1F0);
+    
+}
+
+.Itemlista{
+    display: inline;  
+     
+}
+
+.menu{
+    text-decoration: none;
+    margin: 20px;
+}
+
+.Padrelista{
+    text-align: center;
+}
