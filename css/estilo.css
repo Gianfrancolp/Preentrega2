@@ -1,14 +1,10 @@
-.Tituloh{
- text-align: center;
-}
+
 header{
     background: linear-gradient(to top, #FE998F, #FFF1F0);
     height: 100px;
-    
 }
 .Itemlista{
-    display: inline;  
-     
+    display: inline;     
 }
 .menu{
     text-decoration: none;
@@ -17,21 +13,17 @@ header{
 .Padrelista{
     text-align: center;
 }
-main{
-    background: linear-gradient(to top, #FE998F, #FFF1F0);
-    /* height: 700px; */
-    width: 100%;
-
-}
 .row{
+    background: linear-gradient(to top, #FE998F, #FFF1F0);
+    width: 100%;
+   
     justify-content: space-between;
 }
 .card-img-top{
     height: 300px;
-    
 }
 .card{
-    height: 700px;
+    height: 150%;
     background: linear-gradient(to top, #FE998F, #FFF1F0);
     border: none;
 }
@@ -52,10 +44,44 @@ footer{
     bottom: 0;
     
 }
-
 .Linktienda{
     margin-left: 50px
     ;
 }
 
+@media (min-width:768px){
+    .fotoc{
+    
+        width: 30%;
+        height: 30%;
+    }
+}
 
+@media (max-width:768px){
+    .fotoc{
+        width: 20%;
+        height: 20%;
+    }
+}
+
+.carousel{
+    text-align: center;
+    
+}
+
+@keyframes Texto {
+    0% {
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+.Tituloh{
+    text-align: center;
+    animation-name: Texto;
+    animation-duration: 2s;
+    animation-iteration-count: initial;
+   }
+   
+  
